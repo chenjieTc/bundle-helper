@@ -1,3 +1,20 @@
 {
-  
+  "name": "bundle-helper",
+  "version": "1.0.0",
+  "description": "bundle-helper 支持市场上主流的小程序，在脱离IDE工具的情况下，通过命令行工具可以快速发布预览和体验版本，同时集成了邮件和企业微信等通知方式，方便持续构建和快速部署（Jenkins/Gilab CI）和通知测试人员跟进测试。",
+  "keywords": [
+    "bundle-helper",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/chenjieTc/bundle-helper"
+  },
+  "main": "./bin/index.js",
+  "bin": {
+    "bundle": "/bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0"
+  }
 }
